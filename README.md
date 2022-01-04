@@ -6,12 +6,22 @@ THEME: The theme for the non-ranked  interact-if game jam is "Red Herring"
 
 "Red Herring" meaning a story element that is misleading, a clue or information that draws the audience away from a question, a story element, or the author providing false leads such as fake or useless clues that entice the audience to a false conclusion.
 
-## Code Never Dies
+## Code Never Lies
 ...but comments sometimes do.
 
-The story of a developer trying to untangle a mess of spaghetti code and misleading comments to resolve a Production outage on Christmas Eve.
+The story of two developers trying to untangle a mess of spaghetti code and misleading comments to resolve a Production outage on Christmas Eve.
 
 ## To-Do
 - [ ] Planning
 - [ ] Writing
 - [ ] Programming
+
+Extras
+- [ ] Randomized coworker (name, profile pic, family situation)
+- [ ] Change player profile pic (from presets)
+
+## Notes
+* Can use [This Person Does Not Exist](https://thispersondoesnotexist.com) to generate profile pictures that represent people.
+* Can use [Background Generator](https://bggenerator.com) to generate abstract profile pictures.
+* Save/send chat log when user input isn't recognized to help improve the app (with an option to turn off, of course)
+* [How do chatbots work?](https://botscrew.com/blog/what-are-bots/)
