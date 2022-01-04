@@ -19,9 +19,9 @@ The story of two developers trying to untangle a mess of spaghetti code and misl
 Extras
 - [ ] Randomized coworker (name, profile pic, family situation)
 - [ ] Change player profile pic (from presets)
+- [ ] Save/send chat log when user input isn't recognized to help improve the app (with an option to turn off, of course)
 
-## Notes
-* Can use [This Person Does Not Exist](https://thispersondoesnotexist.com) to generate profile pictures that represent people.
-* Can use [Background Generator](https://bggenerator.com) to generate abstract profile pictures.
-* Save/send chat log when user input isn't recognized to help improve the app (with an option to turn off, of course)
+## Resources
+* Use [This Person Does Not Exist](https://thispersondoesnotexist.com) to generate profile pictures that represent people
+* Use [Background Generator](https://bggenerator.com) to generate abstract profile pictures
 * [How do chatbots work?](https://botscrew.com/blog/what-are-bots/)
