@@ -28,7 +28,8 @@ module.exports = {
   //     },
 
   //     // - a page object section can also have sub-sections
-  //     // - elements or sub-sections located here are retrieved using the "app" section as the base
+  //     // - elements or sub-sections located here are retrieved using
+  //     //   the "app" section as the base
   //     sections: {
   //       headline: {
   //         selector: 'h1',

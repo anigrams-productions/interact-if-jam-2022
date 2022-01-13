@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+$font-family-sans-serif: 'Montserrat', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-family-serif:      Georgia, 'Times New Roman', Times, serif;
+$font-family-monospace:  Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-family-base:       $font-family-sans-serif;
+
+$theme-colors: (
+  "primary": #003d82,
+  "secondary": #405368,
+  "success": #00cf35,
+  "danger": #ff4930,
+  "warning": #ff8a00,
+  "info": #00b8ff,
+  "light": #ffffff,
+  "dark": #1e1e1e
+);
+
+$gutter-xs: 4px;
+$gutter-sm: 8px;
+$gutter-md: 12px;
+$gutter-lg: 16px;
+$gutter-xl: 20px;
+
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 24px;
+$font-size-xxl: 28px;
+$font-size-base: $font-size-md;

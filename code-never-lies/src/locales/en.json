@@ -1,3 +1,7 @@
 {
-  "home": "Home"
+  "home": "Home",
+  "chatTitle": "WhatsWork",
+  "profile": "My Profile",
+  "settings": "Settings",
+  "timeElapsed": "Time Elapsed"
 }

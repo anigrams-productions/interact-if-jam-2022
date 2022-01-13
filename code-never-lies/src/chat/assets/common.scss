@@ -1,0 +1,411 @@
+@import "./variables";
+@import "./functions";
+
+// ---------- App-wide Styles ----------
+html {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// reset browser heading styling
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+// reset browser button styling
+button {
+  background: transparent;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-width: 0;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  min-height: auto;
+  opacity: 0.92;
+  outline: none;
+  overflow: visible;
+  padding: 0;
+  text-align: inherit;
+  transition: all 0.2s ease;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: inherit;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+}
+
+
+// ---------- Utility Classes ----------
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.vertical-center {
+  vertical-align: middle;
+}
+
+.box-shadow {
+  box-shadow: 0 1px 0 0 rgba(255,255,255,0.1);
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-equal {
+  flex: 1;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+
+// ---------- Sizing Classes ----------
+
+.text-xs {
+  font-size: $font-size-xs;
+}
+
+.text-sm {
+  font-size: $font-size-sm;
+}
+
+.text-md {
+  font-size: $font-size-md;
+}
+
+.text-lg {
+  font-size: $font-size-lg;
+}
+
+.text-xl {
+  font-size: $font-size-xl;
+}
+
+.padding-xs {
+  padding: $gutter-xs;
+}
+
+.padding-tb-xs {
+  padding-top: $gutter-xs;
+  padding-bottom: $gutter-xs;
+}
+
+.padding-lr-xs {
+  padding-left: $gutter-xs;
+  padding-right: $gutter-xs;
+}
+
+.padding-sm {
+  padding: $gutter-sm;
+}
+
+.padding-tb-sm {
+  padding-top: $gutter-sm;
+  padding-bottom: $gutter-sm;
+}
+
+.padding-lr-sm {
+  padding-left: $gutter-sm;
+  padding-right: $gutter-sm;
+}
+
+.padding-md {
+  padding: $gutter-md;
+}
+
+.padding-tb-md {
+  padding-top: $gutter-md;
+  padding-bottom: $gutter-md;
+}
+
+.padding-lr-md {
+  padding-left: $gutter-md;
+  padding-right: $gutter-md;
+}
+
+.padding-lg {
+  padding: $gutter-lg;
+}
+
+.padding-tb-lg {
+  padding-top: $gutter-lg;
+  padding-bottom: $gutter-lg;
+}
+
+.padding-lr-lg {
+  padding-left: $gutter-lg;
+  padding-right: $gutter-lg;
+}
+
+.padding-xl {
+  padding: $gutter-xl;
+}
+
+.padding-tb-xl {
+  padding-top: $gutter-xl;
+  padding-bottom: $gutter-xl;
+}
+
+.padding-lr-xl {
+  padding-left: $gutter-xl;
+  padding-right: $gutter-xl;
+}
+
+.margin-xs {
+  margin: $gutter-xs;
+}
+
+.margin-tb-xs {
+  margin-top: $gutter-xs;
+  margin-bottom: $gutter-xs;
+}
+
+.margin-lr-xs {
+  margin-left: $gutter-xs;
+  margin-right: $gutter-xs;
+}
+
+.margin-sm {
+  margin: $gutter-sm;
+}
+
+.margin-tb-sm {
+  margin-top: $gutter-sm;
+  margin-bottom: $gutter-sm;
+}
+
+.margin-lr-sm {
+  margin-left: $gutter-sm;
+  margin-right: $gutter-sm;
+}
+
+.margin-md {
+  margin: $gutter-md;
+}
+
+.margin-tb-md {
+  margin-top: $gutter-md;
+  margin-bottom: $gutter-md;
+}
+
+.margin-lr-md {
+  margin-left: $gutter-md;
+  margin-right: $gutter-md;
+}
+
+.margin-lg {
+  margin: $gutter-lg;
+}
+
+.margin-tb-lg {
+  margin-top: $gutter-lg;
+  margin-bottom: $gutter-lg;
+}
+
+.margin-lr-lg {
+  margin-left: $gutter-lg;
+  margin-right: $gutter-lg;
+}
+
+.margin-xl {
+  margin: $gutter-xl;
+}
+
+.margin-tb-xl {
+  margin-top: $gutter-xl;
+  margin-bottom: $gutter-xl;
+}
+
+.margin-lr-xl {
+  margin-left: $gutter-xl;
+  margin-right: $gutter-xl;
+}
+
+.border-radius-xs {
+  border-radius: $gutter-xs;
+}
+
+.border-radius-sm {
+  border-radius: $gutter-sm;
+}
+
+.border-radius-md {
+  border-radius: $gutter-md;
+}
+
+.border-radius-lg {
+  border-radius: $gutter-lg;
+}
+
+.border-radius-xl {
+  border-radius: $gutter-xl;
+}
+
+
+// ---------- Color Classes ----------
+
+.text-primary {
+  color: theme-color("primary");
+}
+
+.text-secondary {
+  color: theme-color("secondary");
+}
+
+.text-success {
+  color: theme-color("success");
+}
+
+.text-danger {
+  color: theme-color("danger");
+}
+
+.text-warning {
+  color: theme-color("warning");
+}
+
+.text-info {
+  color: theme-color("info");
+}
+
+.text-light {
+  color: theme-color("light");
+}
+
+.text-dark {
+  color: theme-color("dark");
+}
+
+.bg-primary {
+  background-color: theme-color("primary");
+}
+
+.bg-secondary {
+  background-color: theme-color("secondary");
+}
+
+.bg-success {
+  background-color: theme-color("success");
+}
+
+.bg-danger {
+  background-color: theme-color("danger");
+}
+
+.bg-warning {
+  background-color: theme-color("warning");
+}
+
+.bg-info {
+  background-color: theme-color("info");
+}
+
+.bg-light {
+  background-color: theme-color("light");
+}
+
+.bg-dark {
+  background-color: theme-color("dark");
+}
