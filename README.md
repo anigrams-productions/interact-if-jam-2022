@@ -25,3 +25,6 @@ Extras
 * Use [This Person Does Not Exist](https://thispersondoesnotexist.com) to generate profile pictures that represent people
 * Use [Background Generator](https://bggenerator.com) to generate abstract profile pictures
 * [How do chatbots work?](https://botscrew.com/blog/what-are-bots/)
+* [What is a Red Herring?](https://www.youtube.com/watch?v=47ntBElzaWk)
+* [The Ultimate List of E-Commerce Bugs](https://www.luminoslabs.com/insights/testing-digital-commerce-the-ultimate-list-of-ecommerce-bugs)
+* [Bugs in your Shopping Cart](http://kaner.com/pdfs/BugsInYourShoppingCart.pdf)
